@@ -1,0 +1,15 @@
+{
+  "environment": "CartPole-v1",
+  "discount_factor": 0.95,
+  "seed": 42,
+  "network": "QNetwork",
+  "state_dim": 4,
+  "hidden_layers": [
+    128,
+    128
+  ],
+  "activation": "ReLU",
+  "action_dim": 2,
+  "output_activation": "none (raw Q-values)",
+  "trainable_parameters": 17410
+}

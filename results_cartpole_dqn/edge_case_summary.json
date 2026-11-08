@@ -1,0 +1,17 @@
+{
+    "gamma": 0.95,
+    "evaluation_episodes": 500,
+    "successful_episodes": 499,
+    "early_ending_episodes": 1,
+    "minimum_episode_reward": 367.0,
+    "normal_bellman_target": 8.6,
+    "terminal_bellman_target": 1.0,
+    "truncated_bellman_target": 8.6,
+    "final_training_epsilon": 0.05,
+    "evaluation_epsilon": 0.0,
+    "theoretical_q_bound": 19.999999999999982,
+    "maximum_predicted_q": 22.12129211425781,
+    "episodes_with_q_above_bound": 258,
+    "training_budget_reached": true,
+    "last_episode_boundary_status": "unknown"
+}

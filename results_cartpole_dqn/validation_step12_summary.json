@@ -1,0 +1,66 @@
+{
+    "seeds": 40,
+    "episodes_per_policy": 40,
+    "policy_statistics": [
+        {
+            "policy": "best_greedy",
+            "episodes": 40,
+            "mean_reward": 500.0,
+            "std_reward": 0.0,
+            "success_rate": 1.0,
+            "min_reward": 500.0,
+            "max_reward": 500.0
+        },
+        {
+            "policy": "best_epsilon_025",
+            "episodes": 40,
+            "mean_reward": 48.025,
+            "std_reward": 45.08651939071401,
+            "success_rate": 0.0,
+            "min_reward": 11.0,
+            "max_reward": 212.0
+        },
+        {
+            "policy": "best_random",
+            "episodes": 40,
+            "mean_reward": 21.7,
+            "std_reward": 8.37333986607617,
+            "success_rate": 0.0,
+            "min_reward": 10.0,
+            "max_reward": 41.0
+        },
+        {
+            "policy": "final_greedy",
+            "episodes": 40,
+            "mean_reward": 101.8,
+            "std_reward": 9.674709297958259,
+            "success_rate": 0.0,
+            "min_reward": 87.0,
+            "max_reward": 118.0
+        }
+    ],
+    "paired_comparisons": [
+        {
+            "policy_a": "best_greedy",
+            "policy_b": "best_epsilon_025",
+            "mean_reward_difference": 451.975,
+            "bootstrap_ci_95_low": 437.47312500000004,
+            "bootstrap_ci_95_high": 464.6275
+        },
+        {
+            "policy_a": "best_greedy",
+            "policy_b": "best_random",
+            "mean_reward_difference": 478.3,
+            "bootstrap_ci_95_low": 475.749375,
+            "bootstrap_ci_95_high": 481.025
+        },
+        {
+            "policy_a": "best_greedy",
+            "policy_b": "final_greedy",
+            "mean_reward_difference": 398.2,
+            "bootstrap_ci_95_low": 395.14937499999996,
+            "bootstrap_ci_95_high": 401.150625
+        }
+    ],
+    "deterministic_trace_file": "results_cartpole_dqn\\validation_step12_first10.csv"
+}

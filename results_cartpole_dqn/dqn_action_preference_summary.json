@@ -1,0 +1,23 @@
+{
+    "model": "Custom DQN Best Checkpoint",
+    "cart_position": 0.0,
+    "cart_velocity": 0.0,
+    "num_grid_states": 18271,
+    "angle_range": [
+        -0.18,
+        0.18
+    ],
+    "angular_velocity_range": [
+        -1.5,
+        1.5
+    ],
+    "fraction_right": 0.6482951124733184,
+    "fraction_left": 0.3517048875266816,
+    "maximum_q_gap": 16.369958877563477,
+    "minimum_q_gap": -16.67222785949707,
+    "mean_absolute_q_gap": 1.5756627321243286,
+    "mean_absolute_symmetry_error": 0.5541924834251404,
+    "confident_pair_fraction": 0.2674183131738821,
+    "mirrored_action_agreement": 0.9844453540728613,
+    "symmetry_margin_threshold": 0.1
+}

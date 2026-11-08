@@ -1,0 +1,14 @@
+{
+    "training_environment_steps": 100000,
+    "training_episode_records": 1018,
+    "best_checkpoint_steps": 55198,
+    "best_validation_mean": 500.0,
+    "best_validation_success_rate": 1.0,
+    "final_validation_mean": 97.45,
+    "evaluation_episodes": 500,
+    "test_mean_reward": 499.734,
+    "test_sample_std": 5.947940820149443,
+    "test_success_rate": 0.998,
+    "test_min_reward": 367.0,
+    "test_max_reward": 500.0
+}
